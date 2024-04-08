@@ -1,0 +1,172 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #f2f2f2; /* Màu nền của body */
+}
+
+#information {
+  display: flex;
+  justify-content: center;
+  color: rgb(69, 154, 183);
+  margin-bottom: 20px;
+}
+
+.mainform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #fff; /* Màu nền của form */
+  padding: 20px; /* Khoảng cách giữa viền form và các thành phần bên trong */
+  border-radius: 10px; /* Bo tròn viền form */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Đổ bóng cho form */
+}
+
+.input-height {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+#btn {
+  background-color: #80808047;
+  border: 1px solid rgb(180, 165, 165);
+  height: 30px;
+  width: 150px;
+  color: white;
+}
+
+#btn-add {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Bo tròn viền của nút */
+}
+
+#btn-add:hover {
+  background-color: #45a049;
+}
+
+.classmain {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.class-main-div {
+  display: flex;
+  justify-content: center;
+}
+
+#search {
+  background-color: #80808047;
+  border: 1px solid rgb(137, 124, 124);
+  height: 30px;
+  width: 100px;
+  color: white;
+}
+
+#search:hover {
+  background-color: #555;
+}
+
+.maindiv3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information-student {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.list-student {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.div1 {
+  margin-bottom: 32px;
+}
+#information {
+  font-size: 32px;
+}
+.div2 {
+  margin-bottom: 32px;
+}
+.table {
+  border: 1px solid black;
+}
+.tbody {
+  border: 1px solid black;
+}
+.td {
+  border: 1px solid black;
+}
+.th {
+  border: 1px solid black;
+}
+.tr {
+  border: 1px solid black;
+}
+/* .table {
+  border: 1px solid black;
+}
+.tbody {
+  border: 1px solid black;
+}
+.th {
+  border: 1px solid black;
+}
+.tr {
+  border: 1px solid black;
+}
+.td {
+  border: 1px solid black;
+} */
